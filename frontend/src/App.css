@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#navbar {
+    position: sticky;
+    width: 94%;
+    height: 88px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 1px solid black;
+    background: #5C4F0570;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px 16px 32px;
+    border-radius: 16px;
+}
+
+.frame1 {
+    display: flex;
+    gap: 10px;
+}
+
+.frame1 div {
+    display: block;
+}
+
+.frame2 {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-right: 5%;
+    margin-top: 1%;
+}

@@ -1,0 +1,93 @@
+.lable {
+    font-size: 425%;
+    font-weight: 600;
+}
+
+#hero img {
+    width: 17%;
+    height: 10%;
+    position: relative;
+    left: 40%;
+    /* animation-name: lableImgAnime; */
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#hero {
+    margin-top: 5%;
+}
+
+#lable1 {
+    width: 37%;
+    position: absolute;
+    animation-name: lable1Anime;
+    animation-duration: 1.5s;
+    /* animation-delay: 1s; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes lable1Anime {
+    from {
+        left: 0;
+    }
+    to {
+        left: 30%;
+    }
+}
+
+#lable2 {
+    /* width: 37%; */
+    position: absolute;
+    animation-name: lable2Anime;
+    animation-duration: 1.5s;
+    /* animation-delay: 1s; */
+    animation-fill-mode: forwards;
+}
+
+#lable2 span {
+    color: rgb(243, 243, 83)
+}
+
+@keyframes lable2Anime {
+    from {
+        top: 90%;
+        left: 30%;
+    }
+    to {
+        top: 55%;
+        left: 30%;
+    }
+}
+
+
+/* @keyframes lableImgAnime {
+    from {
+        top: 90%;
+        left: 40%;
+    }
+    to {
+        top: 60%;
+        left: 40%;
+    }
+} */
+
+#bottom-div {
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 26%;
+}
+
+#bottom-div p {
+    font-size: large;
+    text-align: center;
+}
+
+#bottom-div button {
+    margin-left: 38%;
+    margin-top: 4%;
+    width: 16%;
+    padding: 10px;
+    background-color: rgb(248, 248, 78);
+    color: black;
+    border-radius: 20px;
+}
