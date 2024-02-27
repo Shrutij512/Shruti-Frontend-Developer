@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require("cors");
 const { connection } = require('./config/db');
 const { TokenModel } = require('./models/tokenModel');
 require('dotenv').config();
@@ -6,12 +7,16 @@ require('dotenv').config();
 const app = express();
 app.use(express.json());
 
+app.use(cors({
+    origin: "*"
+}));
+
 const PORT = process.env.PORT;
 
 app.get("/", async(req, res) => {
     try {
         const token = await TokenModel.find();
-        res.send({ "Our Token": token })
+        res.send({ "Token": token })
     } catch (error) {
         console.log(error);
         res.send(error);
