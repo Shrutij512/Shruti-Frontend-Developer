@@ -36,7 +36,7 @@ const Token = () => {
     };
 
     return (
-        <div>
+        <div className="our-token">
             <div className="token-section">
                 <h1>Our <span style={{ color: "#FECC00" }}>Token</span></h1>
                 <p>Pellentesque habitant morbi tristique senectus et netus et Pellentesque habitant morbi.</p>

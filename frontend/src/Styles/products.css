@@ -40,3 +40,25 @@
     font-size: x-large;
     font-weight: 700;
 }
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .prod-section {
+        margin-top: 12%;
+        margin-left: 8%;
+        width: 80%;
+    }
+    #prod-div {
+        display: block;
+        margin-bottom: 10px;
+    }
+    #prod {
+        margin-bottom: 2rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #prod-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

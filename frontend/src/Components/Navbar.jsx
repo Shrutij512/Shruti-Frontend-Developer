@@ -1,6 +1,7 @@
 import '../App.css';
 import React from 'react'
 import { Link, Route, Routes } from "react-router-dom";
+import logo from "../images/LogoYellow.png"
 // import About from './About';
 // import Products from './Products';
 // import Token from './Token';
@@ -10,7 +11,7 @@ const Navbar = () => {
     return (
         <div id='navbar'>
             <div className='frame1'>
-                <img src="https://png.pngtree.com/template/20190429/ourmid/pngtree-finance-logo-template-image_147918.jpg" alt="logo" />
+                <img src={logo} alt="logo" />
                 <div>
                     <p style={{ color: "#FFC603", lineHeight: "19.37px" }}>BITVERSE</p>
                     <p>FINANCE</p>
