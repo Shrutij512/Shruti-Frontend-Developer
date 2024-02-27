@@ -1,6 +1,7 @@
 import "../Styles/tokenSection.css";
 import React, { useEffect, useState } from 'react'
 import ReactPaginate from 'react-paginate';
+import arrow from "../images/right-arrow.png"
 
 const Token = () => {
     const [tokenData, setToken] = useState([]);
@@ -51,7 +52,7 @@ const Token = () => {
                         <div className='token-details'><p>Decimals</p> {token.decimals}</div>
                         <div className='token-details'><p>Marketcap</p> {token.marketcap}</div>
                         <div className='token-details'><p>Chain</p> {token.chain}</div>
-                        <button>Details</button>
+                        <button>Details <img src={arrow} alt="" /></button>
                     </div>
                 ))}
 

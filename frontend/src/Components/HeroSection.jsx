@@ -1,5 +1,6 @@
 import '../Styles/heroSection.css';
 import React from 'react'
+import arrow from "../images/right-arrow.png"
 
 const HeroSection = () => {
     return (
@@ -12,7 +13,7 @@ const HeroSection = () => {
 
             <div id='bottom-div'>
                 <p>Lorem ipsum dolor sit amet consectetur. Porta amet tellus suspendisse id velit proin eleifend id mauris. Amet sem in id eget nunc quam lacus tellus augue.</p>
-                <button>Get started</button>
+                <button>Get started <img src={arrow} alt="" /></button>
 
             </div>
         </div>

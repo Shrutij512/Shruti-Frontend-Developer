@@ -89,11 +89,13 @@
 }
 
 #bottom-div button {
+    display: flex;
     margin-left: 38%;
     margin-top: 4%;
-    width: 16%;
+    width: 20%;
     padding: 10px;
-    background-color: rgb(248, 248, 78);
+    padding-left: 20px;
+    background: linear-gradient(94.62deg, #FECC00 -2.53%, #FEA800 102.53%);
     color: black;
     border-radius: 20px;
 }

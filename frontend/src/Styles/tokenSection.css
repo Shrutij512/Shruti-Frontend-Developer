@@ -47,7 +47,8 @@
 }
 
 #token button {
-    background-color: rgb(252, 252, 81);
+    display: flex;
+    background: linear-gradient(94.62deg, #FECC00 -2.53%, #FEA800 102.53%);
     padding: 7px 15px;
     color: black;
     border-radius: 20px;
