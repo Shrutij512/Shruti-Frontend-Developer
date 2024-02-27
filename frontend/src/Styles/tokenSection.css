@@ -1,0 +1,67 @@
+.token-section {
+    margin: 30px 0;
+    padding: 60px 0;
+    font-size: large;
+    text-align: center;
+}
+
+.token-section h1 {
+    margin: 20px 0;
+    font-size: 250%;
+    font-weight: 600;
+}
+
+#token-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+    margin: 0 19%;
+    padding: 20px;
+    width: 65%;
+}
+
+#token {
+    padding: 5% 15%;
+    padding-bottom: 25%;
+    border: 1.5px solid rgb(226, 226, 107);
+    border-radius: 10px;
+    background-color: #141411;
+    /* text-align: center; */
+}
+
+#token-icon {
+    margin: 15px 0;
+    width: 40%;
+    height: 30%;
+    margin-left: 17%;
+}
+
+#token-title {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.token-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#token button {
+    background-color: rgb(252, 252, 81);
+    padding: 7px 15px;
+    color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.pagination-container {
+    display: flex;
+    gap: 25px;
+    margin: 10%;
+    margin-left: 45%;
+}
+
+.pagination-container>button {
+    background-color: yellow;
+}

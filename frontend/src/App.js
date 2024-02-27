@@ -6,6 +6,7 @@ import Token from './Components/Token';
 import Roadmap from './Components/Roadmap';
 import HeroSection from './Components/HeroSection';
 import { BrowserRouter } from 'react-router-dom';
+import Footer from './Components/Footer';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Products />
             <Token />
             <Roadmap />
+            <Footer />
         </div>
         // </BrowserRouter>
     );

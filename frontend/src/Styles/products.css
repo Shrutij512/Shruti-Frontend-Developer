@@ -12,6 +12,7 @@
 }
 
 #prod-div {
+    cursor: pointer;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10%;
@@ -26,6 +27,7 @@
     border: 1.5px solid rgb(226, 226, 107);
     border-radius: 10px;
     text-align: center;
+    background-color: #141411;
 }
 
 #prod-icon {

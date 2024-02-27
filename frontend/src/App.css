@@ -4,7 +4,10 @@ body {
 }
 
 #navbar {
-    position: sticky;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    /* width: 100%;  */
     width: 94%;
     height: 88px;
     margin-top: 40px;
@@ -32,4 +35,30 @@ body {
     gap: 35px;
     margin-right: 5%;
     margin-top: 1%;
+}
+
+#footer {
+    background-color: #141411;
+    width: 85%;
+    height: 20%;
+    margin-bottom: 10%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    padding-right: 9%;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 248, 111);
+}
+
+#social {
+    display: flex;
+    gap: 15px;
+    width: 4%;
+    height: 4%;
+}
+
+#footer-text h1 {
+    font-size: xx-large;
+    font-weight: 700;
 }
